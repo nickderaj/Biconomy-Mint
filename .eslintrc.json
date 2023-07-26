@@ -58,6 +58,12 @@
         "optionalDependencies": false,
         "peerDependencies": false
       }
+    ],
+    "@typescript-eslint/no-misused-promises": [
+      "error",
+      {
+        "checksVoidReturn": false
+      }
     ]
   }
 }
